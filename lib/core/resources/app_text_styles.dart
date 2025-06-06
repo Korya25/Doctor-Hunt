@@ -28,7 +28,7 @@ class AppTextStyles {
     color: AppColors.primaryTextColor,
   );
 
-  static TextStyle get onboardingDescription => _rubik(
+  static TextStyle get onboardingSubtitle => _rubik(
     fontSize: 14,
     weight: FontWeightType.regular,
     letterSpacing: -0.3,
