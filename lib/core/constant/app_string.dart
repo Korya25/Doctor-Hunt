@@ -16,4 +16,13 @@ class AppString {
   // Button
   static const String getStarted = "Get Started";
   static const String next = "Next";
+
+  // Home
+  static const String hi = "Hi";
+  static const String findYourDoctor = "Find Your Doctor";
+  static const String searchHint = "Search.....";
+  static const String liveDoctors = 'Live Doctors';
+  static const String popularDoctors = 'Popular Doctors';
+  static const String featureDoctor = 'Feature Doctor';
+  static const String seeAll = 'See All';
 }
