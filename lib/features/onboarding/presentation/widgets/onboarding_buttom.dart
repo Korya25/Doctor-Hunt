@@ -35,7 +35,10 @@ class OnboardingButtom extends StatelessWidget {
           maintainState: true,
           child: TextButton(
             onPressed: nextOnTap,
-            child: Text(AppString.next, style: AppTextStyles.textButton),
+            child: Text(
+              AppString.next,
+              style: AppTextStyles.rubik14MediumTertiary,
+            ),
           ),
         ),
         /*Opacity(

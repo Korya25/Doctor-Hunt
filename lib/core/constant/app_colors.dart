@@ -16,4 +16,8 @@ class AppColors {
   static const Color circleBackground = Color(0xFF0EBE7E);
   static const Color circleBackground2 = Color(0xFF07D9AD);
   static const Color circleBackground3 = Color(0xFF61CEFF);
+
+  // Shimmer Colors
+  static const Color shimmerBase = Color(0xFF1A1A1A);
+  static const Color shimmerHighlight = Color(0xFF424242);
 }

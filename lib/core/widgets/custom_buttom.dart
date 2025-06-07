@@ -31,7 +31,9 @@ class CustomButtom extends StatelessWidget {
           color: color ?? AppColors.primaryColor,
           borderRadius: BorderRadius.circular(borderRadius ?? 10.r),
         ),
-        child: Center(child: Text(title, style: AppTextStyles.button)),
+        child: Center(
+          child: Text(title, style: AppTextStyles.rubik18MediumSecondary),
+        ),
       ),
     );
   }

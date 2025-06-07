@@ -21,31 +21,44 @@ class AppTextStyles {
   }
 
   // Onboarding Screen
-  static TextStyle get onboardingTitle => _rubik(
-    fontSize: 28,
+  static TextStyle get rubik28MediumPrimary => _rubik(
+    fontSize: 28.sp,
     weight: FontWeightType.medium,
     letterSpacing: -0.3,
     color: AppColors.primaryTextColor,
   );
 
-  static TextStyle get onboardingSubtitle => _rubik(
-    fontSize: 14,
+  static TextStyle get rubik14RegularTiary => _rubik(
+    fontSize: 14.sp,
     weight: FontWeightType.regular,
     letterSpacing: -0.3,
     color: AppColors.tertiaryTextColor,
   );
 
   // Buttons
-  static TextStyle get button => _rubik(
-    fontSize: 18,
+  static TextStyle get rubik18MediumSecondary => _rubik(
+    fontSize: 18.sp,
     weight: FontWeightType.medium,
     color: AppColors.secondaryTextColor,
   );
 
-  static TextStyle get textButton => _rubik(
-    fontSize: 14,
+  static TextStyle get rubik14MediumTertiary => _rubik(
+    fontSize: 14.sp,
     weight: FontWeightType.medium,
     letterSpacing: -0.3,
     color: AppColors.tertiaryTextColor,
+  );
+
+  static TextStyle get rubikLight20Secondary => _rubik(
+    fontSize: 20.sp,
+    weight: FontWeightType.light,
+    letterSpacing: -0.3,
+    color: AppColors.secondaryTextColor,
+  );
+  static TextStyle get rubikBold25Secondary => _rubik(
+    fontSize: 25.sp,
+    weight: FontWeightType.bold,
+    letterSpacing: -0.3,
+    color: AppColors.secondaryTextColor,
   );
 }

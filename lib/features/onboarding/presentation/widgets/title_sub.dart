@@ -12,13 +12,13 @@ class TitleSub extends StatelessWidget {
       spacing: 10.h,
       children: [
         // Title
-        Text(title, style: AppTextStyles.onboardingTitle),
+        Text(title, style: AppTextStyles.rubik28MediumPrimary),
 
         // Subtitle
         Text(
           subtitle,
           textAlign: TextAlign.center,
-          style: AppTextStyles.onboardingSubtitle,
+          style: AppTextStyles.rubik14RegularTiary,
         ),
       ],
     );
